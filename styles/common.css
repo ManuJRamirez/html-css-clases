@@ -1,0 +1,8 @@
+:root{
+    --main-bg-color: black; /* esto es una variable y es muy importante los dos primeros guiones*/
+}
+.main-bg{
+    color: white;
+    background-color: var(--main-bg-color);
+    
+}
