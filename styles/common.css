@@ -1,0 +1,21 @@
+:root{
+    --main-text-color: rgb(255, 255, 255); 
+    --main-bg-color: #000; /* esto es una variable y es muy importante los dos primeros guiones*/
+    --main-brand-color: #e50914;
+    --main-brand-color-light:#e44c54;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+.main-bg{
+    color: var(--main-text-color);
+    background-color: var(--main-bg-color);
+    /*opacity: 1; */    
+}
+
+body{
+    font-size: 16px;    
+}
+
+*{
+    box-sizing: border-box;
+}
