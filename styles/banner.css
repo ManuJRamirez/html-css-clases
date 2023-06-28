@@ -1,0 +1,26 @@
+.banner {
+    height: 75vh;
+    text-align: center;
+    position: relative;
+  }
+  
+  /* ?? */
+  .banner .banner__content {
+    z-index: 1;
+    position: relative;
+  }
+  
+  .banner .banner__image {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    top: 0;
+    background-image: url(../assets/app/catalog.jpg);
+    /*
+    background-repeat: no-repeat;
+    background-size: cover;
+    */
+    z-index: 0;
+    opacity: 0.3;
+  }
