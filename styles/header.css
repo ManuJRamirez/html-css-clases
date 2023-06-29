@@ -1,0 +1,26 @@
+.header {
+    position: sticky;
+    background-color: var(--main-bg-color);
+    z-index: 2;
+    top: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__image {
+    width: 120px;
+}
+
+.header__image img {
+    width: 100%;
+}
+
+.header .header__nav ul.header__nav__list {
+    list-style: none;
+}
+
+.header__nav .header__nav__list .header__nav__list__item > a {
+    text-decoration: none;
+}

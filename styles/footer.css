@@ -22,10 +22,10 @@
     font-size: 1rem;
     margin: 0;
     font-weight: 400;
-    text-transform: capitalize;
+    /* text-transform: capitalize; */
     /* line-height: 1.4; */
   }
   
   .footer .footer__company {
-    font-style: normal;
+    font-style: italic;
   }
