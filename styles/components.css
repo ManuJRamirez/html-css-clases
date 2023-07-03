@@ -6,7 +6,20 @@
     border: 1px solid var(--main-brand-color);
 }
 
-.hidden{
+.hidden-xs{
     display: none;
-    color: blue;
+ /*   color: blue;*/
+ /*visibility: hidden;*/
 }
+
+@media print {
+    * {
+      color: red;
+    }
+  }
+  
+  @media screen and (768px <= width) {
+    .hidden-xs {
+      display: block;
+    }
+  }

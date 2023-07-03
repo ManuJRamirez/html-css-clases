@@ -1,5 +1,4 @@
 .info{
-    /*??*/
     width: 90%;
     margin: 0 auto;
     max-width: 768px;
@@ -23,3 +22,23 @@
     top: 30px;
     width: 175px;
 }
+
+/* 768px / 1024px */
+@media (768px <= width) {
+    .info .info__video video {
+      top: 70px;
+      width: 384px;
+    }
+    .info .info__video img {
+      width: 628px;
+    }
+  }
+  
+  @media (1024px <= width) {
+    .info {
+      display: flex;
+      flex-direction: row-reverse;
+      align-items: center;
+      max-width: 998px;
+    }
+  }

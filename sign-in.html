@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign in | codeflix</title>
+    <link rel="stylesheet" href="styles/normalize..css">
+    <link rel="stylesheet" href="styles/common.css">
+    <link rel="stylesheet" href="styles/components.css">
+</head>
+<body class="main-bg">
+    <div>
+        <h1>Sign in</h1>
+        <form method="get" action="registro.html">
+            <div>
+                <label for="email">Email</label>
+                <input 
+                id="email" 
+                type="email"
+                placeholder="Add your email"
+                value="keepcoding@test.com"
+                name="mail"
+                required>  
+            </div>
+            <div>
+                <label for="pwd">password</label>
+                <input 
+                id="pwd"
+                type="password"
+                name="pwd"
+                required>
+            </div>
+            <div>
+                <label for="phone">Phone</label>
+                <input type="tel" name="phone" id="phone" required>
+            </div>
+            <div>
+                <label for="avatar" 
+               >Choose a profile</label>
+                <input type="file" id="avatar" name="avatar" accept="image/png, image/jpeg">
+            </div>
+            <div>
+                <fieldset>
+                    <legend>Fav Category</legend>
+                    <div>
+                        <label for="shows">Shows</label>
+                        <input type="radio" id="shows" name="category" checked value="shows">
+                        <label for="docus">Docus</label>
+                        <input type="radio" id="docus" name="category" value="docus">
+                    </div>
+                </fieldset>
+                <!--<fieldset>
+                    <legend>Fav Category</legend>
+                    <div>
+                        <label for="cshows">Shows</label>
+                        <input type="checkbox" id="cshows" name="ccategory" checked value="shows">
+                        <label for="cdocus">Docus</label>
+                        <input type="checkbox" id="cdocus" name="ccategory" value="docus">
+                    </div>
+                </fieldset> -->
+            </div>
+            <div>
+                <label for="bio">Bio</label>
+                <textarea name="bio" id="bio" placeholder="Add your bio"></textarea>
+            </div>
+            <div>
+                <input type="checkbox" name="remember" id="remember" checked>
+                <label for="remember">Remember me</label>
+            </div>
+            <div>
+                <label for="country">country</label>
+                <select name="country" id="country">
+                    <option value="es">Spain</option>
+                    <option value="us">USA</option>
+                </select>
+            </div>
+            <div>
+                <button class="btn" type="reset">reset</button>
+                <input class="btn" 
+                type="submit"
+                value="Sign in">
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
