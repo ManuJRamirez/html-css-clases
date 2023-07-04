@@ -6,6 +6,45 @@
     border: 1px solid var(--main-brand-color);
 }
 
+.btn.btn--secondary{
+  background-color: transparent;
+  border-color: var(--main-text-color);
+}
+
+.form__element{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 12px;
+}
+
+.form__element--checkbox{
+  flex-direction: row;
+  align-items: center;
+
+}
+.form__element--checkbox input[type="checkbox"]{
+  margin-right: 5px;
+}
+
+.form__label{
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.form__input{
+  padding: 16px 12px;
+  border-radius: 5px;
+  background-color: #333;
+  border: none;
+  color: rgb(255, 255, 255);
+  color: var(--main-text-color);
+}
+
+textarea::placeholder, input::placeholder{
+  color: #cbcbcb;
+}
+
 .hidden-xs{
     display: none;
  /*   color: blue;*/
